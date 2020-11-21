@@ -1,5 +1,11 @@
 # worktimers
 
+## BIG THING:
+### This cannot be run on Chrome, and should rather be run on Firefox
+### Chrome has (rightly) disabled media autoplay (which is why youtube videos you open in  a new tab don't start until you click on the tab they opened in)
+### Firefox also has this in a different way, and importantly, it can be overridden. There's a button up by the URL bar that will appear, so you can enable popups (the program creates new tabs with instructions at the intervals) and media (the program makes a sound at each of the intervals)
+### The idea is that you hear the sound, you open the browser, you do the thing, you close the browser, back to work until the next sound
+### I've found it nice in a different workspace/desktop if your OS has that option (I have tried this on Ubuntu)
 ## Fill out the things.html file with your to do list if you want
 ### Also fill out the extra stuff you want to have in messages
 ## Fill out the things.js file to generate the pages
