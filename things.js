@@ -12,7 +12,7 @@ let interval = setInterval(() => {
     window.open(thingsthings[traverse % 3])
     audio.play()
     traverse += 1
-    if (traverse % 3 == 0) {
+    if (traverse % 3 == 1 & traverse > 1) {
         window.open("./chillthings.html")
     }
 }, 600000);
