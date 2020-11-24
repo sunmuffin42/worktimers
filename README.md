@@ -11,7 +11,7 @@ You can fill out the things.html file with your to do list if you want
 Also fill out the extra stuff you want to have in messages, on the various html files, and if you rename them, fix that in the things.js file
 Fill out the things.js file to fit your timing and page preferences
 
-## Quick start, just use sunny_thingss.html and modify the todo list, and just change the other files as you want so they display the right messages
+## Quick start, just use sunny_things.html and modify the todo list, and just change the other files as you want so they display the right messages
 
 ## Note:
 All the times you're gonna see in the js files are in milliseconds, so 1000 = 1 sec, 60,000 = 1 min
