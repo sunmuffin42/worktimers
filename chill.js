@@ -1,6 +1,6 @@
 let minute = 60000
 let played = false
-let current_time = 900000
+let current_time = 600000
 // let current_time = 6000 (testing; 6 seconds)
 let decrement = setInterval(() => {
     current_time = current_time - 1000

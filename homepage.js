@@ -3,16 +3,22 @@
 // 1min = 60,000
 // 10 min = 600,000
 // 15 min = 900,000
-
-let thingsthings = ["./hydrate.html", "./center.html", "./posture.html"]
+let pages = ["./hydrate.html", "./center.html", "./posture.html", "./SunnysChill.html"]
 let audio = new Audio("./paging_sound.mp3")
 let traverse = 0
 let interval = setInterval(() => {
-    window.open(thingsthings[traverse % 3])
+    let page = pages[traverse % 4]
+    window.open(page)
     audio.play()
     traverse += 1
-    if (traverse % 3 == 1 & traverse > 1) {
-        window.open("./chill.html")
-    }
-}, 600000);
-// }, 10000); (for testing; 10 secs)
+    console.log(page)
+    let current = new Date
+    let hours = current.getHours()
+    let minutes = current.getMinutes()
+    console.log("last traversal: ", hours, ":", minutes, "\nLast page: ", page)
+}, 600000)
+// }, 10000); //(for testing; 10 secs)
+// For potty break:
+// let button = document.querySelector("input")
+// button.addEventListener("click", pauseTime)
+// let pauseTime = 
