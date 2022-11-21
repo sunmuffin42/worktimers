@@ -3,7 +3,7 @@
 // 1min = 60,000
 // 10 min = 600,000
 // 15 min = 900,000
-let pages = ["./hydrate.html", "./center.html", "./posture.html", "./SunnysChill.html"]
+let pages = ["./hydrate.html", "./center.html", "./posture.html", "./chill.html"]
 let audio = new Audio("./paging_sound.mp3")
 let traverse = 0
 let interval = setInterval(() => {
